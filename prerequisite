@@ -1,0 +1,38 @@
+(Ubuntu 12.04)
+=====================
+External Requirements
+=====================
+1. gcc/g++
+2. pthreads (libc6)
+3. make
+4. tcl
+
+command:
+#####################
+sudo apt-get install gcc g++ libc6 make tcl-dev
+
+
+
+==========================
+Optional External Packages
+==========================
+1. tclreadline		GNU Readline Extension for Tcl/Tk
+2. libreadline		GNU readline and history libraries [development]
+3. tclx			Extended Tcl - shared library
+4. tcllib			Standard Tcl Library
+5. libdb			Berkeley v4.2 - v4.7  Database Libraries [development]
+6. libbluetooth		BlueZ Linux Bluetooth library [development]
+7. libgoogle-perftools0	Libraries for CPU and heap analysis
+8. libxerces-cs-dev	Validating XML parser library for C++ [development]
+9. python			Interactive high-level object-oriented language
+10. xsd			XML Data Binding for C++
+11. zlib			Compression library [runtime]
+
+command:
+#######################
+sudo apt-get install tclreadline libreadline-dev tclx8.4 tcllib libdb5.1-dev libbluetooth-dev libgoogle-perftools0 libxerces-c2-dev python xsdcxx zlib1g
+
+
+**NOTE**
+libbluetooth-dev => error saat install dengan libbluetooth, lebih baik di remove jika ketemu error
+
